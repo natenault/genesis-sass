@@ -3,9 +3,9 @@
 
 .footer-widgets {
 	background-color: #fff;
+	clear: both;
 	font-size: 18px;
 	font-size: 1.8rem;
-	clear: both;
 	padding: 60px 0;
 }
 
@@ -29,7 +29,6 @@
 }
 
 @media only screen and (max-width: 1340px) {
-
 	.footer-widgets-1,
 	.footer-widgets-2,
 	.footer-widgets-3 {
@@ -39,11 +38,9 @@
 	.footer-widgets-1 {
 		margin-right: 60px;
 	}
-
 }
 
 @media only screen and (max-width: 1200px) {
-
 	.footer-widgets-1,
 	.footer-widgets-2,
 	.footer-widgets-3 {
@@ -53,11 +50,9 @@
 	.footer-widgets-1 {
 		margin-right: 30px;
 	}
-
 }
 
 @media only screen and (max-width: 1023px) {
-
 	.footer-widgets-1,
 	.footer-widgets-2,
 	.footer-widgets-3 {
@@ -68,5 +63,4 @@
 	.footer-widgets-2 {
 		margin: 0 auto 40px;
 	}
-
 }

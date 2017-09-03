@@ -14,8 +14,8 @@
 	a {
 		color: #333;
 		text-decoration: none;
-		&:hover,
-		&:focus {
+		&:focus,
+		&:hover {
 			color: #c3251d;
 		}
 	}

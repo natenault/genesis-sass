@@ -1,5 +1,12 @@
 # Genesis Sample Theme Changelog
 
+## [2.3.0] - 2017-01-30
+* Add WooCommerce support to the theme and customizer
+* Add an updated and improved responsive menu script
+* Updated the file structure
+* Updated documentation
+* Updated code standards
+
 ## [2.2.4] - 2016-06-08
 * Reorder font size on breadcrumbs
 * Add Changelog

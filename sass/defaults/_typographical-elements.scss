@@ -7,6 +7,7 @@ html {
 
 /* Chrome fix */
 body > div {
+	font-size: 20px;
 	font-size: 2rem;
 }
 
@@ -25,24 +26,20 @@ body {
 a,
 button,
 input:focus,
-input[type="button"],
-input[type="reset"],
-input[type="submit"],
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
 textarea:focus,
 .button,
 .gallery img {
-	-webkit-transition: all 0.1s ease-in-out;
-	-moz-transition:    all 0.1s ease-in-out;
-	-ms-transition:     all 0.1s ease-in-out;
-	-o-transition:      all 0.1s ease-in-out;
-	transition:         all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
 }
 
 a {
 	color: #c3251d;
 	text-decoration: underline;
-	&:hover,
-	&:focus {
+	&:focus,
+	&:hover {
 		color: #333;
 		text-decoration: none;
 	}
@@ -83,10 +80,15 @@ i {
 	font-style: italic;
 }
 
+mark {
+	background: #ddd;
+	color: #000;
+}
+
 blockquote {
 	margin: 40px;
 	&::before {
-		content: "\201C";
+		content: '\201C';
 		display: block;
 		font-size: 30px;
 		font-size: 3rem;
@@ -98,8 +100,8 @@ blockquote {
 }
 
 @media only screen and (max-width: 860px) {
-
 	body > div {
+		font-size: 18px;
 		font-size: 1.8rem;
 	}
 
@@ -107,5 +109,4 @@ blockquote {
 		font-size: 18px;
 		font-size: 1.8rem;
 	}
-
 }

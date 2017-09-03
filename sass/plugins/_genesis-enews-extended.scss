@@ -12,12 +12,12 @@
 	input:focus {
 		border: 1px solid #333;
 	}
-	input[type="submit"] {
+	input[type='submit'] {
 		background-color: #c3251d;
 		color: #fff;
 	}
-	input:hover[type="submit"],
-	input:focus[type="submit"]  {
+	input[type='submit']:focus,
+	input[type='submit']:hover {
 		background-color: #fff;
 		color: #333;
 	}
@@ -29,7 +29,7 @@
 		font-size: 1.6rem;
 		margin-bottom: 16px;
 	}
-	input[type="submit"] {
+	input[type='submit'] {
 		margin: 0;
 		width: 100%;
 	}
